@@ -11,7 +11,6 @@ Plug 'nathanaelkane/vim-indent-guides'
 
 call plug#end()            
 set number
-bo term
 let g:airline#extensions#tabline#enabled = 1
 nmap <C-p> <Plug>AirlineSelectPrevTab
 nmap <C-n> <Plug>AirlineSelectNextTab
